@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { ImagesService } from '../service/images.service';
 
 @Component({
@@ -7,24 +8,40 @@ import { ImagesService } from '../service/images.service';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent {
+  lang = sessionStorage.getItem('lang');
   images: any[] = [];
   filteredImages: any[] | undefined;
   query: string = '';
+  selectedCategory = '';
+  categories: string[] = ["Te gjitha", "Makarona", "Salce", "Oriz", "Miell"];
+  categories2: string[] = ["Tutti i prodotti", "Pasta", "Salsa", "Riso", "Farina"];
+  translation: any;
 
+  constructor(
+    private service: ImagesService,
+    private http: HttpClient
+  ) {}
 
-selectedCategory = 'Zgjidh kategorine';
-defaultHidden=false;
-  constructor(private service: ImagesService) {}
-  categories:string[]=["Te gjitha","Makarona","Salce","Oriz","Miell"]
-  getImages() {
-    this.service.getImages().subscribe((data: any[]) => {
+  getTranslation(lang: string) {
+    return this.http.get(`assets/i18n/${lang}.json`);
+  }
+
+  getImagesAl() {
+    this.service.getImages('images-al').subscribe((data: any[]) => {
+      this.images = data;
+      this.filteredImages = data;
+    });
+  }
+
+  getImagesIt() {
+    this.service.getImages('images-it').subscribe((data: any[]) => {
       this.images = data;
       this.filteredImages = data;
     });
   }
 
   selectByCategory(category: string) {
-    if (category === "Te gjitha") {
+    if (category == "Te gjitha" || "Tutti i prodotti") {
       this.filteredImages = this.images;
     } else {
       this.filteredImages = this.images.filter(
@@ -32,8 +49,6 @@ defaultHidden=false;
       );
     }
   }
-  
-  
 
   searchImages() {
     this.filteredImages = this.images.filter(image =>
@@ -41,9 +56,18 @@ defaultHidden=false;
       image.description.toLowerCase().includes(this.query.toLowerCase())
     );
   }
-  
 
   ngOnInit() {
-    this.getImages();
+    const lang = sessionStorage.getItem('lang') || 'al';
+    this.getTranslation(lang).subscribe((data) => {
+      this.translation = data;
+      this.selectedCategory = this.translation.selectCategory;
+    });
+   if(lang == 'it'){
+    this.getImagesIt();
+   }
+   else {
+    this.getImagesAl();
+  }
   }
 }

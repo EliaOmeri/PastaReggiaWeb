@@ -10,10 +10,10 @@ export class ImagesService {
   constructor(private http: HttpClient) {}
 
   images: any[] | undefined;
-  url = "http://localhost:3000/images"; 
+  url = "http://localhost:3000/"; 
   
-getImages(){
-  return this.http.get(this.url) as Observable<any>;
+getImages(arrayName:string){
+  return this.http.get(this.url + arrayName) as Observable<any>;
 }
 
 

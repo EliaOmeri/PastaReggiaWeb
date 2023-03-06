@@ -27,7 +27,7 @@ export class ContactComponent implements OnInit {
     subject: new FormControl(''),
     message: new FormControl(''),
   })
-  emailAddress = "eliaomeri5@gmail.com";
+  emailAddress = "info@malogroupal.com";
 
   get subject() {
     return this.contactForm.get('subject')?.value;

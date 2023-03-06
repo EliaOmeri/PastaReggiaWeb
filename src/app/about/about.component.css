@@ -6,11 +6,11 @@
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url("../../assets/pasta-images/fabricaa.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("../../assets/pasta-images/imgggn1jpg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
-    color: #fff;
+    color: #565656;
     padding-top: 110px;
     padding-bottom: 110px;
 }
@@ -170,5 +170,3 @@ img {
 .section-bg {
     background-color: white;
 }
-
-
