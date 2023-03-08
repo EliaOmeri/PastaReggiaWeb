@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:GTB Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T040000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN=ernaso.kerbizi@crystal-system.eu;RSVP=TRUE:mailto:ernaso.kerbiz
+	i@crystal-system.eu
+ATTENDEE;CN=gledia.balla@crystal-system.eu;RSVP=TRUE:mailto:gledia.balla@cr
+	ystal-system.eu
+ATTENDEE;CN=jolika.sulejmani@crystal-system.eu;RSVP=TRUE:mailto:jolika.sule
+	jmani@crystal-system.eu
+ATTENDEE;CN=julian.mata@crystal-system.eu;RSVP=TRUE:mailto:julian.mata@crys
+	tal-system.eu
+ATTENDEE;CN=elson.lleshi@crystal-system.eu;RSVP=TRUE:mailto:elson.lleshi@cr
+	ystal-system.eu
+ATTENDEE;CN="Indrit Vaka";RSVP=TRUE:mailto:indrit.vaka@crystal-system.eu
+ATTENDEE;CN=elton.hoxha@crystal-system.eu;RSVP=TRUE:mailto:elton.hoxha@crys
+	tal-system.eu
+ATTENDEE;CN=ardit.elezi@crystal-system.eu;RSVP=TRUE:mailto:ardit.elezi@crys
+	tal-system.eu
+ATTENDEE;CN=isuf.muca@crystal-system.eu;RSVP=TRUE:mailto:isuf.muca@crystal-
+	system.eu
+ATTENDEE;CN=danjel.halili@crystal-system.eu;RSVP=TRUE:mailto:danjel.halili@
+	crystal-system.eu
+ATTENDEE;CN=flavio.lorenci@crystal-system.eu;RSVP=TRUE:mailto:flavio.lorenc
+	i@crystal-system.eu
+ATTENDEE;CN=elia.omeri@crystal-system.eu;RSVP=TRUE:mailto:elia.omeri@crysta
+	l-system.eu
+ATTENDEE;CN=luka.buziu@crystal-system.eu;RSVP=TRUE:mailto:luka.buziu@crysta
+	l-system.eu
+ATTENDEE;CN=stefan.ruci@crystal-system.eu;RSVP=TRUE:mailto:stefan.ruci@crys
+	tal-system.eu
+ATTENDEE;CN=irena.shahini@crystal-system.eu;RSVP=TRUE:mailto:irena.shahini@
+	crystal-system.eu
+ATTENDEE;CN=griselda.muci@crystal-system.eu;RSVP=TRUE:mailto:griselda.muci@
+	crystal-system.eu
+ATTENDEE;CN=nevjana.muhaj@crystal-system.eu;ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:nevjana.muhaj@crystal-system.eu
+CLASS:PUBLIC
+CREATED:20230301T075702Z
+DESCRIPTION:Follow-up meeting\n\n \n\nDear all\,\n\n\nI invite you to this 
+	meeting to know each other and discuss about the current and future collea
+	gues from Crystal Albania office working on Renault projects.\n\nI conside
+	r would be good for all of you to meet in the Crystal Albania office on We
+	dnesday\, and to discuss face to face and to know each other better\, even
+	 if I will be from remote. \n\n \n\nI want to share with you that for exam
+	ple we have a very experienced Backend developer colleague that joined rec
+	ently Renault projects and that would be very happy to meet you all in per
+	son. His name is Elton Hoxha and I invite all of you to welcome him.\n\n \
+	n\nThank you\,\nMihai \n\n________________________________________________
+	________________________________ \n\nMicrosoft Teams meeting \n\nJoin on y
+	our computer\, mobile app or room device \n\nClick here to join the meetin
+	g <https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmFiN2Q5NWMtMjFl
+	ZS00NjUxLTllMDItMjJkYTA1OTk1YjM5%40thread.v2/0?context=%7b%22Tid%22%3a%228
+	3cbb87f-7176-400c-8d0b-f560558f2d73%22%2c%22Oid%22%3a%22490081e5-07dc-4569
+	-9828-c0d7d7edc442%22%7d>  \n\nMeeting ID: 335 775 155 877 \nPasscode: 8Nf
+	inX \n\nDownload Teams <https://www.microsoft.com/en-us/microsoft-teams/do
+	wnload-app>  | Join on the web <https://www.microsoft.com/microsoft-teams/
+	join-a-meeting> \n\nLearn More <https://aka.ms/JoinTeamsMeeting>  | Meetin
+	g options <https://teams.microsoft.com/meetingOptions/?organizerId=490081e
+	5-07dc-4569-9828-c0d7d7edc442&tenantId=83cbb87f-7176-400c-8d0b-f560558f2d7
+	3&threadId=19_meeting_ZmFiN2Q5NWMtMjFlZS00NjUxLTllMDItMjJkYTA1OTk1YjM5@thr
+	ead.v2&messageId=0&language=en-US>  \n\n__________________________________
+	______________________________________________ \n\n \n\n
+DTEND;TZID="GTB Standard Time":20230303T163000
+DTSTAMP:20230301T075702Z
+DTSTART;TZID="GTB Standard Time":20230303T160000
+LAST-MODIFIED:20230301T075702Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN=mihai.zainescu@crystal-system.eu:mailto:mihai.zainescu@crystal
+	-system.eu
+PRIORITY:5
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:Digital Team Renault in Albania
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0FA0277573AD901000000000000000
+	0100000001904F34B32BFA14BBFC82D31BC6EA9CA
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Co
+	ntent-Type content="text/html\; charset=us-ascii"><meta name=Generator con
+	tent="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Definition
+	s */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 
+	3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 
+	2 4\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2 11 5 2 4 2 4 2
+	 2 3\;}\n@font-face\n	{font-family:"Segoe UI Semibold"\;\n	panose-1:2 11 7
+	 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, d
+	iv.MsoNormal\n	{margin:0in\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\
+	,sans-serif\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	co
+	lor:#0563C1\;\n	text-decoration:underline\;}\nspan.EmailStyle18\n	{mso-sty
+	le-type:personal-compose\;\n	font-family:"Calibri"\,sans-serif\;\n	color:w
+	indowtext\;}\n.MsoChpDefault\n	{mso-style-type:export-only\;\n	font-size:1
+	0.0pt\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1
+	.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[i
+	f gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml
+	><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:id
+	map v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><bo
+	dy lang=EN-US link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+	<div class=WordSection1><p class=MsoNormal><b>Follow-up meeting<o:p></o:p>
+	</b></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p><p class=MsoNormal>Dear a
+	ll\,<o:p></o:p></p><p class=MsoNormal><br>I invite you to this meeting to 
+	know each other and discuss about the current and future colleagues from C
+	rystal Albania office working on Renault projects.<o:p></o:p></p><p class=
+	MsoNormal>I consider would be good for all of you to meet in the Crystal A
+	lbania office on Wednesday\, and to discuss face to face and to know each 
+	other better\, even if I will be from remote. <o:p></o:p></p><p class=MsoN
+	ormal><o:p>&nbsp\;</o:p></p><p class=MsoNormal>I want to share with you th
+	at for example we have a very experienced Backend developer colleague that
+	 joined recently Renault projects and that would be very happy to meet you
+	 all in person. His name is Elton Hoxha and I invite all of you to welcome
+	 him.<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p><p class=MsoN
+	ormal>Thank you\,<br>Mihai <o:p></o:p></p><div><p class=MsoNormal><span st
+	yle='color:#5F5F5F'>______________________________________________________
+	__________________________</span> <o:p></o:p></p></div><div><div style='ma
+	rgin-top:.25in\;margin-bottom:15.0pt'><p class=MsoNormal><span style='font
+	-size:18.0pt\;font-family:"Segoe UI"\,sans-serif\;color:#252424'>Microsoft
+	 Teams meeting</span><span style='font-family:"Segoe UI"\,sans-serif\;colo
+	r:#252424'> <o:p></o:p></span></p></div><div style='margin-bottom:15.0pt'>
+	<div><p class=MsoNormal><b><span style='font-size:10.5pt\;font-family:"Seg
+	oe UI"\,sans-serif\;color:#252424'>Join on your computer\, mobile app or r
+	oom device</span></b><b><span style='font-family:"Segoe UI"\,sans-serif\;c
+	olor:#252424'> <o:p></o:p></span></b></p></div><p class=MsoNormal><span st
+	yle='font-family:"Segoe UI"\,sans-serif\;color:#252424'><a href="https://t
+	eams.microsoft.com/l/meetup-join/19%3ameeting_ZmFiN2Q5NWMtMjFlZS00NjUxLTll
+	MDItMjJkYTA1OTk1YjM5%40thread.v2/0?context=%7b%22Tid%22%3a%2283cbb87f-7176
+	-400c-8d0b-f560558f2d73%22%2c%22Oid%22%3a%22490081e5-07dc-4569-9828-c0d7d7
+	edc442%22%7d" target="_blank"><span style='font-size:10.5pt\;font-family:"
+	Segoe UI Semibold"\,sans-serif\;color:#6264A7'>Click here to join the meet
+	ing</span></a> <o:p></o:p></span></p></div><div style='margin-top:15.0pt\;
+	margin-bottom:15.0pt'><div style='margin-bottom:3.0pt'><p class=MsoNormal>
+	<span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#
+	252424'>Meeting ID: </span><span style='font-size:12.0pt\;font-family:"Seg
+	oe UI"\,sans-serif\;color:#252424'>335 775 155 877</span><span style='font
+	-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#252424'> </span><
+	span style='font-family:"Segoe UI"\,sans-serif\;color:#252424'><br></span>
+	<span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#
+	252424'>Passcode: </span><span style='font-size:12.0pt\;font-family:"Segoe
+	 UI"\,sans-serif\;color:#252424'>8NfinX </span><span style='font-family:"S
+	egoe UI"\,sans-serif\;color:#252424'><o:p></o:p></span></p><div><p class=M
+	soNormal><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif
+	\;color:#252424'><a href="https://www.microsoft.com/en-us/microsoft-teams/
+	download-app" target="_blank"><span style='color:#6264A7'>Download Teams</
+	span></a> | <a href="https://www.microsoft.com/microsoft-teams/join-a-meet
+	ing" target="_blank"><span style='color:#6264A7'>Join on the web</span></a
+	><o:p></o:p></span></p></div></div></div><div style='margin-top:15.0pt\;ma
+	rgin-bottom:.25in'><p class=MsoNormal><span style='font-family:"Segoe UI"\
+	,sans-serif\;color:#252424'><a href="https://aka.ms/JoinTeamsMeeting" targ
+	et="_blank"><span style='font-size:10.5pt\;color:#6264A7'>Learn More</span
+	></a> | <a href="https://teams.microsoft.com/meetingOptions/?organizerId=4
+	90081e5-07dc-4569-9828-c0d7d7edc442&amp\;tenantId=83cbb87f-7176-400c-8d0b-
+	f560558f2d73&amp\;threadId=19_meeting_ZmFiN2Q5NWMtMjFlZS00NjUxLTllMDItMjJk
+	YTA1OTk1YjM5@thread.v2&amp\;messageId=0&amp\;language=en-US" target="_blan
+	k"><span style='font-size:10.5pt\;color:#6264A7'>Meeting options</span></a
+	> <o:p></o:p></span></p></div></div><div><p class=MsoNormal><span style='c
+	olor:#5F5F5F'>____________________________________________________________
+	____________________</span> <o:p></o:p></p></div><p class=MsoNormal><o:p>&
+	nbsp\;</o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:1
+X-MS-OLK-APPTSEQTIME:20230207T165208Z
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
