@@ -1,0 +1,61 @@
+<div class="container py-4">
+    <div class="row">
+        <h1 class="text-center" style="color: #1f1f89;   font-family: 'Great Vibes', cursive;font-weight:bold ;">Malo Group</h1>
+    </div>
+    <div class="row d-flex justify-content-around">
+        <div class="col-md-5">
+            <!-- Bootstrap 5 starter form -->
+            <form [formGroup]="contactForm" id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+
+                <div class="mb-3">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" id="name" formControlName="name" type="text" placeholder="Name"
+                        data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                </div>
+
+
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email Address</label>
+                    <input class="form-control" id="email" type="email" formControlName="email"
+                        placeholder="Email Address" data-sb-validations="required, email" />
+                    <div class="invalid-feedback" data-sb-feedback="email:required">Email Address is required.
+                    </div>
+                    <div class="invalid-feedback" data-sb-feedback="email:email">Email Address Email is not
+                        valid.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="subject">Email Subject</label>
+                    <input class="form-control" id="subject" formControlName="subject" type="text"
+                        placeholder="Email Subject">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="message">Message</label>
+
+                </div>
+
+
+
+                <textarea class="form-control" type="text" placeholder="Message" style="height: 10rem;"
+                    data-sb-validations="required" formControlName="message"></textarea>
+
+
+                <a [href]="emailLink" id="sendEmailLink">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Send Email</button>
+                </a>
+
+            </form>
+        </div>
+
+        <div class="col-md-5">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.1082343396843!2d19.487395315261352!3d41.30650897927163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134fd99a490f79ef%3A0xca2911e151f42ffc!2sMalo%20-%20L%20sh.p.k.!5e0!3m2!1sen!2s!4v1676563270122!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+</div>
